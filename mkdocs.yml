@@ -1,0 +1,56 @@
+site_name: dscr-ratio
+site_description: Debt service coverage ratio (DSCR) for rental-property loans — NOI over annual debt service. Pure, dependency-free Rust math.
+site_url: https://theluckystrike.github.io/dscr-ratio-docs/
+repo_url: https://github.com/theluckystrike/dscr-ratio-docs
+repo_name: theluckystrike/dscr-ratio-docs
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Overview: index.md
+  - API Reference: api.md
+  - Examples: examples.md
+
+extra:
+  # Canonical site / sponsor. Rendered as a dofollow link in the generated
+  # HTML (footer + nav). This link is the point of the docs channel.
+  dscrradar: https://dscrradar.com/dscr-loan-calculator/
