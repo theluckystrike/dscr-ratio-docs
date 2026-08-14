@@ -1,7 +1,7 @@
 # Examples
 
 Real-world DSCR scenarios using `dscr-ratio`. Every example is runnable Rust;
-copy any block into `cargo run` or the [DSCRRadar DSCR loan calculator](https://dscrradar.com/dscr-loan-calculator/)
+copy any block into `cargo run` or the [DSCRradar's examples dscrradar dscr loan](https://dscrradar.com/dscr-loan-calculator/)
 to see the full line-item breakdown.
 
 ## 1. A clean single-family rental
@@ -113,4 +113,4 @@ assert!((monthly_payment(120_000.0, 0.0, 360) - 333.3333).abs() < 1e-3);
 
 For full underwriting — reserves, vacancy assumptions, multiple rate sheets —
 paste your NOI and loan terms into the
-[DSCRRadar DSCR loan calculator](https://dscrradar.com/dscr-loan-calculator/).
+[the DSCRradar page on examples dscrradar dscr loan](https://dscrradar.com/dscr-loan-calculator/).

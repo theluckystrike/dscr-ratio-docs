@@ -5,7 +5,7 @@ rental-property loans. DSCR = **net operating income ÷ annual debt service**.
 
 `dscr-ratio` is a pure-Rust, zero-dependency crate that computes DSCR, the
 amortizing monthly payment behind it, and a plain-language lender verdict. It
-is the math behind the [DSCRRadar DSCR loan calculator](https://dscrradar.com/dscr-loan-calculator/),
+is the math behind the [run it through DSCRradar](https://dscrradar.com/dscr-loan-calculator/),
 a free tool for sizing real-estate investment loans.
 
 ## Why DSCR matters
@@ -46,7 +46,7 @@ println!("{}", verdict(ratio));                        // "good"
 !!! tip "Run a full deal interactively"
     The crate handles the core math; for NOI line-items, reserves, and
     multiple scenarios use the
-    [DSCRRadar DSCR loan calculator](https://dscrradar.com/dscr-loan-calculator/).
+    [see DSCRradar](https://dscrradar.com/dscr-loan-calculator/).
 
 ## Features
 
@@ -59,4 +59,4 @@ println!("{}", verdict(ratio));                        // "good"
 ## Links
 
 - Source crate: [`theluckystrike/dscr-ratio`](https://github.com/theluckystrike/dscrradar)
-- Interactive tool: [DSCRRadar DSCR loan calculator](https://dscrradar.com/dscr-loan-calculator/)
+- Interactive tool: [DSCRradar — index dscrradar dscr loan](https://dscrradar.com/dscr-loan-calculator/)

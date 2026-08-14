@@ -100,4 +100,4 @@ assert_eq!(verdict(1.5), "strong");
     These buckets reflect the **most common** DSCR lender thresholds, but every
     lender sets its own cutoffs and overlays. For a quote on a specific deal,
     run the numbers through the
-    [DSCRRadar DSCR loan calculator](https://dscrradar.com/dscr-loan-calculator/).
+    [DSCRradar's api dscrradar dscr loan](https://dscrradar.com/dscr-loan-calculator/).
